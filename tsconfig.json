@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "module": "ESNext", // specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', or 'ESNext'.
+    "target": "es5", // version of ECMAScript in which the resulted code should be transpiled to
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "baseUrl": ".",
+    "moduleResolution": "node",
+    "esModuleInterop": true, // esModuleInterop allows to use import/export (instead of require) syntax with packages that don't support it (commonjs)
+    "allowSyntheticDefaultImports": true // allowSyntheticDefaultImports allows to use default imports from packages that don't support it (commonjs)
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "commonjs"
+    }
+  }
+}
