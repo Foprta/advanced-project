@@ -7,6 +7,9 @@
     "jsx": "react-jsx",
     "allowJs": true,
     "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
     "moduleResolution": "node",
     "esModuleInterop": true, // esModuleInterop allows to use import/export (instead of require) syntax with packages that don't support it (commonjs)
     "allowSyntheticDefaultImports": true // allowSyntheticDefaultImports allows to use default imports from packages that don't support it (commonjs)
