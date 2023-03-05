@@ -12,7 +12,7 @@ export const Button: React.FC<Props> = (props) => {
     return (
         <button
             type="button"
-            className={classNames(styles.container, undefined, [className, styles[theme]])}
+            className={classNames(styles.Button, undefined, [className, styles[theme]])}
             {...rest}
         />
     );

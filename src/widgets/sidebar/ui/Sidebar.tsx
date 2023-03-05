@@ -13,7 +13,7 @@ export const Sidebar: React.FC = () => {
     }, []);
 
     return (
-        <div className={classNames(styles.container, { [styles.collapsed]: collapsed })}>
+        <div className={classNames(styles.Sidebar, { [styles.collapsed]: collapsed })}>
             <Button onClick={onToggle}>toggle</Button>
 
             <div className={styles.switchers}>
